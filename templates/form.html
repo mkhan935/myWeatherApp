@@ -1,0 +1,42 @@
+
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Station</title>
+
+    <link rel="stylesheet" href="{% static "css/style.css" %}"media="screen" type="text/css" />
+
+</head>
+<body>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+
+
+
+
+
+ <div class="container">
+
+      <div id="login">
+
+
+
+
+<form method="get" action="/home">
+  {{ form.as_p  }}
+
+
+<p><input type="submit" value="Search"></p>
+    </form>
+
+          </fieldset>
+
+        </form>
+
+      </div>
+ </div>
+
+</body>
+</html>

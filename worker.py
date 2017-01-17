@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 def fetch_data(zipcode):
-    api_token='37f68d496bd19129'
+    api_token='ur API KEY'
     url = 'http://api.wunderground.com/api/' + api_token + '/conditions/q/'+zipcode+'.json'
     #url = 'http://api.wunderground.com/api/' + api_token + '/conditions/q/CA/San_Francisco.json'
     r=requests.get(url).json()
@@ -28,9 +28,9 @@ def fetch_data(zipcode):
     observation_time=data['observation_time']
 
     try:
-        conn = psycopg2.connect(dbname='d65m7alsh7pb1p',user='daeijwstqfsvcb',
-                                host='ec2-54-235-248-197.compute-1.amazonaws.com',
-                                password='0c09b3fd3cb89cd9df85889995f88291f3f4398bf940a28f046df752392b28fa')
+        conn = psycopg2.connect(dbname,user,
+                                host,
+                                password)
         print('DB OPENED')
     except:
         print(datetime.now(),"Unable to Connect")

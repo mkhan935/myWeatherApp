@@ -7,6 +7,8 @@ The purpose of this project was
 
 I hate ads on the yahoo's weather site, so I decided to make this for fun
 
-2. The part that was new to me is learning how to deploy it on to Heroku
+ 2. The part that was new to me is learning how to deploy it on to Heroku
 
 On these files I have gotten rid of the API keys, and db passwords, use your own.
+
+I know bootstrap/css/html but I've always sucked at art, don't judge my desgin :)

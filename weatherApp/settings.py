@@ -14,7 +14,7 @@ SECRET_KEY = '3)_!ic8^f+jv6)-!gtc644!n55_ogs#(bo@q2%tt!9q-tj7usw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['adfreeweatherapp.herokuapp.com']
+ALLOWED_HOSTS = ['http://adfreeweatherapp.herokuapp.com/']
 
 
 # Application definition

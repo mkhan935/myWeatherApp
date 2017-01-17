@@ -68,11 +68,11 @@ WSGI_APPLICATION = 'weatherApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'weather',
-        'USER': 'postgres',
-        'PASSWORD':'admin',
-        'HOST':'',
-        'PORT':'',
+        'NAME': 'd65m7alsh7pb1p',
+        'USER': 'daeijwstqfsvcb',
+        'PASSWORD':'0c09b3fd3cb89cd9df85889995f88291f3f4398bf940a28f046df752392b28fa',
+        'HOST':'ec2-54-235-248-197.compute-1.amazonaws.com',
+        'PORT':'5432',
     }
 }
 

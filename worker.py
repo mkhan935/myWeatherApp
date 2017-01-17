@@ -28,7 +28,9 @@ def fetch_data(zipcode):
     observation_time=data['observation_time']
 
     try:
-        conn = psycopg2.connect(dbname='weather',user='postgres',host='localhost',password='admin')
+        conn = psycopg2.connect(dbname='d65m7alsh7pb1p',user='daeijwstqfsvcb',
+                                host='ec2-54-235-248-197.compute-1.amazonaws.com',
+                                password='0c09b3fd3cb89cd9df85889995f88291f3f4398bf940a28f046df752392b28fa')
         print('DB OPENED')
     except:
         print(datetime.now(),"Unable to Connect")

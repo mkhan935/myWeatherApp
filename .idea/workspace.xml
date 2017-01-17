@@ -22,17 +22,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="worker.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/worker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="32" column="106" lean-forward="false" selection-start-line="32" selection-start-column="106" selection-end-line="32" selection-end-column="106" />
+              <folding>
+                <marker date="1484684673765" expanded="true" signature="1255:1405" ph="INSERT INTO station_reading... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weatherApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+            <state relative-caret-position="530">
+              <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weatherApp/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -62,14 +74,14 @@
         <option value="$PROJECT_DIR$/station/models.py" />
         <option value="$PROJECT_DIR$/templates/intro.html" />
         <option value="$PROJECT_DIR$/weatherApp/urls.py" />
-        <option value="$PROJECT_DIR$/worker.py" />
         <option value="$PROJECT_DIR$/station/views.py" />
         <option value="$PROJECT_DIR$/station/forms.py" />
         <option value="$PROJECT_DIR$/templates/form.html" />
         <option value="$PROJECT_DIR$/static/css1/style.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/weatherApp/settings.py" />
         <option value="$PROJECT_DIR$/weatherApp/wsgi.py" />
+        <option value="$PROJECT_DIR$/weatherApp/settings.py" />
+        <option value="$PROJECT_DIR$/worker.py" />
       </list>
     </option>
   </component>
@@ -80,9 +92,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="781" />
+    <option name="x" value="402" />
     <option name="y" value="53" />
-    <option name="width" value="980" />
+    <option name="width" value="1359" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
@@ -469,7 +481,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="781" y="53" width="980" height="1090" extended-state="0" />
+    <frame x="402" y="53" width="1359" height="1090" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5280899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -509,8 +521,7 @@
         <state relative-caret-position="1175">
           <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
           <folding>
-            <element signature="e#0#34#0" expanded="false" />
-            <marker date="1484623652970" expanded="true" signature="1084:1234" ph="INSERT INTO station_reading... " />
+            <marker date="1484684673765" expanded="true" signature="1255:1405" ph="INSERT INTO station_reading... " />
           </folding>
         </state>
       </provider>
@@ -590,8 +601,7 @@
         <state relative-caret-position="1225">
           <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
           <folding>
-            <element signature="e#0#34#0" expanded="false" />
-            <marker date="1484623652970" expanded="true" signature="1084:1234" ph="INSERT INTO station_reading... " />
+            <marker date="1484684673765" expanded="true" signature="1255:1405" ph="INSERT INTO station_reading... " />
           </folding>
         </state>
       </provider>
@@ -659,17 +669,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/keys.py" />
     <entry file="file://$PROJECT_DIR$/templates/intro.html" />
-    <entry file="file://$PROJECT_DIR$/worker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#34#0" expanded="false" />
-            <marker date="1484623652970" expanded="true" signature="1084:1234" ph="INSERT INTO station_reading... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/station/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -732,20 +731,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weatherApp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weatherApp/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#227#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="74" column="20" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="106" lean-forward="false" selection-start-line="32" selection-start-column="106" selection-end-line="32" selection-end-column="106" />
+          <folding>
+            <marker date="1484684673765" expanded="true" signature="1255:1405" ph="INSERT INTO station_reading... " />
           </folding>
         </state>
       </provider>

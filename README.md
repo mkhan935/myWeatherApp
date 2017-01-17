@@ -15,3 +15,28 @@ I hate ads on the yahoo's weather site, so I decided to make this for fun
 On these files I have gotten rid of the API keys, and db passwords, use your own.
 
 I know bootstrap/css/html but I've always sucked at art, don't judge my desgin :)
+
+
+
+![screenshot 17](https://cloud.githubusercontent.com/assets/16232033/22040986/08ef9408-dcd3-11e6-8986-06bea32aac41.png)
+
+
+![screenshot 18](https://cloud.githubusercontent.com/assets/16232033/22040997/196d0b26-dcd3-11e6-8b70-d4bfdd135919.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
